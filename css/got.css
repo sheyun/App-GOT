@@ -1,0 +1,44 @@
+body {
+  background: black;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.main {
+  background: purple;
+  margin: 0;
+  width: 853px;
+  display: inline-block;
+  margin-top: 170px;
+  border: 0.5px solid #cfd4d8;
+}
+
+input {
+  margin-right: 290px;
+  width: 300px;
+  height: 24px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-style: 1px solid;
+}
+
+#text {
+  padding-right: 460px;
+}
+
+#button {
+  width: 100px;
+  padding-right: 25px;
+}
+
+#login {
+  background: #1da1f2;
+  border-style: none;
+  border-radius: 25px;
+  width: 78px;
+  height: 36px;
+}
+
+

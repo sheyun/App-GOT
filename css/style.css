@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+
+body * {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.bg-img {
+    background-image: url("/imgs/bg.jpg");
+    background-size: 100%;
+}
+
+.centered {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.bg-gradient {
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+
+.bg-black {
+    background: black;
+}
+
+.img-thumbnail{
+    background: url("/imgs/ssn1.jpg");
+    background-size: no-repeat;
+    background-repeat: none;
+    height: 200px;
+    width:200px;
+    margin-top: 35px;
+}
+
+p{
+    color: white;
+    margin-left: 51px;
+}
