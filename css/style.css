@@ -26,16 +26,30 @@ body * {
     background: black;
 }
 
-.img-thumbnail{
-    background: url("/imgs/ssn1.jpg");
-    background-size: no-repeat;
-    background-repeat: none;
+.img-thumbnail {
     height: 200px;
-    width:200px;
+    width: 200px;
     margin-top: 35px;
 }
 
-p{
-    color: white;
-    margin-left: 51px;
+p {
+    color: black;
+    text-align: center;
 }
+
+img{
+    width: 100%;
+}
+
+.card-header{
+    background-color: white;
+    border-style: none;
+}
+
+.btn-primary{
+    margin-top: -68px;
+    margin-left: 12px;
+    background-color: #fa71cd;
+    border: none;
+}
+

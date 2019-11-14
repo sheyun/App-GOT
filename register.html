@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="col-12 mt-4">
-                        <button class="btn btn-dark btn-lg rounded-lg">Submit</button>
+                        <button class="btn btn-dark btn-lg rounded-lg" onclick="showAlert()">Submit</button>
                     </div>
                 </div>
             </div>
@@ -68,6 +68,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script>
+   if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+            .then((reg) => {
+            console.log('Service worker registered.', reg);
+            });
+    });
+    } 
+    </script>
+    <script>
+   function showAlert() {
+       alert('Alerted')
+   }
+
+    </script>
+
+
 </body>
 
 </html>
